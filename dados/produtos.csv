@@ -1,0 +1,6 @@
+id,nome,preco,quantidade,categoria,descricao
+1,Camiseta,29.90,100,Roupas,Camiseta de algodão preta
+2,Calça,59.90,80,Roupas,Calça jeans azul
+3,Tênis,99.90,40,Calçados,Tênis esportivo branco
+4,Boné,19.90,150,Acessórios,Boné azul ajustável
+5,Mochila,79.90,10,Acessórios,Mochila escolar preta
