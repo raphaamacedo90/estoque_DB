@@ -7,10 +7,10 @@ print("Iniciando o script...")
 try:
     print("Tentando conectar ao MySQL...")
     conn = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="R@phael10!",
-        database="Estoque",
+        host='localhost',
+        user='root',
+        password='R@phael10!',
+        database='estoque',
         port=3306
     )
 
