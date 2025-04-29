@@ -22,7 +22,8 @@ estoque-projeto/
 │   └── consultas.sql         # Consultas úteis (ex.: estoque baixo)  
 ├── scripts/  
 │   └── inserir_dados.py      # Script Python para inserir dados a partir dos CSVs  
-├── relatorios/           # Relatórios gerados (futuro)  
+├── relatorios/           # Relatórios gerados <br>
+├── dashboard/           # Dashboard Criado<br>
 └── README.md             # Documentação do projeto
 
 ---
@@ -64,6 +65,41 @@ A inserção pode ser feita de duas formas, para simular diferentes cenários us
 
 ---
 
+## 🚀 Novidades do Projeto
+
+Finalizei também um dashboard em Power BI conectado ao banco de dados, trazendo:
+- Visão de vendas por mês
+- Ranking dos produtos mais vendidos
+- Indicadores de desempenho
+
+O arquivo `.pbix` está disponível na pasta `/dashboard`.
+
+📊 O objetivo foi construir uma jornada completa: dados → análise → visualização!
+
+# Projeto de Estoque - Banco de Dados + Dashboard Power BI
+
+Este projeto foi desenvolvido em etapas para treinar habilidades práticas em Banco de Dados, Python e Power BI.
+
+## Etapas do Projeto:
+- **Criação do Banco de Dados**: Estruturado com tabelas de produtos e vendas.
+- **Script em Python**: Planejado para futuras automações de análise.
+- **Dashboard no Power BI**: Desenvolvimento de um dashboard dinâmico de vendas.
+
+## O que foi feito:
+- Estruturação de um banco de dados relacional para simular um ambiente real de estoque e vendas.
+- Desenvolvimento de um Dashboard em Power BI conectado diretamente ao banco de dados para análise interativa.
+- Integração de indicadores, filtros e ranking dos produtos mais vendidos.
+
+
+---
+
+📊 Este projeto representa a jornada prática de um banco de dados até a visualização dos dados em um dashboard.
+
+👨‍💻 Projeto por Raphael Macedo  
+[https://app.powerbi.com/view?r=eyJrIjoiZDcxZDY1OWYtN2NiNS00MWY1LWJmMjQtNThmNjY5ZWZkZDIxIiwidCI6ImJhNjE3ZWIyLWRiZDYtNGY2YS04ODJjLWQ2OGY5MzgwOGEzZiJ9]
+
+
+
 ## ▶️ Como Executar
 
 1. Configure um servidor MySQL local (ex.: XAMPP, WAMP ou Docker).
@@ -82,11 +118,13 @@ python scripts/inserir_dados.py
 --- 
 
 🛠️ Tecnologias Utilizadas
-MySQL
+- MySQL
 
 - Python (pandas, pymysql)
 
-- Visual Studio Code (com SQLTools)
+- Visual Studio Code 
+  
+- Power BI Desktop
 
 - Git e GitHub
 
