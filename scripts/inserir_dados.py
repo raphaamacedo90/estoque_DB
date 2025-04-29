@@ -22,9 +22,9 @@ try:
     
     cursor = conn.cursor()
 
-    print("Lendo produtos.csv...")
+    print("Lendo...")
     produtos_df = pd.read_csv("../dados/produtos.csv")
-    print("Produtos lido com sucesso!")
+    print("Arquivos lidos com sucesso!")
 
     produtos_data = [
         (
@@ -49,9 +49,9 @@ try:
     valid_produto_ids = {row[0] for row in cursor.fetchall()}
     print(f"IDs válidos de produtos: {valid_produto_ids}")
 
-    print("Lendo vendas.csv...")
+    print("Lendo...")
     vendas_df = pd.read_csv("../dados/vendas.csv")
-    print("Vendas lido com sucesso!")
+    print("Arquivos lidos com sucesso!")
 
     vendas_data = []
     for _, row in vendas_df.iterrows():

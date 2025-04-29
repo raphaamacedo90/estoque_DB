@@ -1,0 +1,1 @@
+[2025-04-28 20:04:56 Relatório 'valor_total_vendas' gerado com sucesso e salvo em '../relatorios/valor_total_vendas.csv'.
